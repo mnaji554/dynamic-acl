@@ -1,5 +1,7 @@
 {
     "name": "mnaji554/dynamic-acl",
+    "description": "Dynamic role and permission management for Laravel applications",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Iya30n\\DynamicAcl\\": "src/"
@@ -18,7 +20,7 @@
     ],
     "require": {
         "php": "^8.3",
-        "laravel/framework": "^13.8",
+        "laravel/framework": "^13.23",
         "javoscript/laravel-macroable-models": "^1.0"
     },
     "extra": {
@@ -29,7 +31,7 @@
         }
     },
     "require-dev": {
-        "orchestra/testbench": "^10.0",
+        "orchestra/testbench": "^11.x-dev",
         "mockery/mockery": "^1.6",
         "phpunit/phpunit": "^12.5"
     }
